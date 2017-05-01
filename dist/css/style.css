@@ -1,0 +1,110 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+input[type="search"] {
+  width: 100%;
+  box-shadow: #d2d2d2 1px 1px 5px;
+  font-size: 27px;
+  height: 40px;
+  padding: 0px 5px;
+  border-radius: 4px;
+  border: solid 1px rgba(2, 2, 2, 0.28);
+}
+
+button {
+  width: 48%;
+  margin: 4px;
+  padding: 5px;
+}
+
+.actions {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  =: #d2d2d2 1px 1px 5px
+  padding: 10px 0;
+  margin-bottom: 1em;
+}
+
+li {
+  padding: 5px 0;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 1px #ddd;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: #d2d2d2 1px 1px 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.user-info img {/* height: auto; *//* width: 300px; */}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    max-width: 330px;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+h1.username {margin: 0;/* color: #c38e47; */}
+
+li {
+    display: block;
+    border-bottom: solid 1px #ddd;
+}
+
+ul {
+    -webkit-padding-start: 0;
+}
+
+.full-box {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(111, 111, 111, 0.42) 1px 0px 4px;
+}
+
+h1.username a {
+    color: #4c4c4c;
+    text-shadow: #9c9c9c 1px 1px 5px;
+}
+
+div[data-js="app"] {
+    width: 100%;
+}
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
