@@ -1,0 +1,23 @@
+{
+  "name": "myreact",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://giioohbernini.github.io/github-app",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.11"
+  },
+  "devDependencies": {
+    "@fdaciuk/ajax": "^2.1.5",
+    "gh-pages": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
